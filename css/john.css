@@ -6,21 +6,29 @@
 
 body {
 	background: #0E0B01;
+	background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/05/Blue-Gradient-Image-768x480.jpg);
+	background-size: cover;
 }
 
 h1 {
-	color: #A239CA;
+	color: #5faa9c;
+	margin-left: 15px;
 	
+}
+h2 {
+	margin-left: 15px;
 }
 
 h3 {
-	color: #A239CA;
+	color: #5faa9c;
 }
 
 * {
 	color: #E7DFDD;
 	font-family: 'PT Mono', monospace;
+
 }
+
 
 #links {
 	margin-left: 20px;
@@ -31,7 +39,12 @@ h3 {
 
 #bottom {
 	height: 20px;
-	background-color: orange;
+	background-color: #5faa9c;
+	
+}
+
+#copyright {
+	margin-left: 30px;
 }
 
 li {
