@@ -63,13 +63,15 @@ img:hover {
 }
 .img__description{
   color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  top: 70%;
   left: 50%;
+  opacity: 1;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
   }
 
   .overlay {
@@ -82,10 +84,16 @@ img:hover {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: white;
+  background-color: #c1decf;
+  /*
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  */
   }
-  .wrap:hover .overlay {
-  opacity: .8;
+
+.wrap:hover .overlay {
+  opacity: .9;
 }
 
 /* NAVBAR */
@@ -94,79 +102,35 @@ img:hover {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
 .topnav a{
-	float: left;
+  float: left;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  
 }
 #social{
 	height: 50px;
   width: 50px;
 }
-
 .topnav a.active{
 	font-weight: bold;
 }
-
 .nav-right{
 	float: right;
 }
 #mainpage {
 	float:right;
 }
-
-
-
-
 body {
 	background-color: white;
-	
 }
 #toplink{
 	color: black;
 }
-
-h1 {
-
-	color: black;
-	margin-left: 15px;
-	
-}
-h2 {
-	color: black;
-	margin-left: 15px;
-	display: inline;
-}
-
-h3 {
-	color: #5faa9c;
-}
-
 * {
-
-	
-	font-family: 'PT Mono', monospace;
-
-}
-
-
-
-
-#bottom {
-	height: 20px;
-	background-color: #5faa9c;
-	
-}
-
-#copyright {
-	margin-left: 30px;
-}
-
-li {
-	margin-bottom: 10px;
+	font-family: foco, sans-serif;
+	font-style: normal;
+	font-weight: 400;
 }
