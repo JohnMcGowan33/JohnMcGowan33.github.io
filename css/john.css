@@ -63,6 +63,27 @@ color: white;
 
 }
 
+@media only screen and (max-width: 600px){
+  h1{
+    text-align: center;
+color: grey;
+margin-top: 50px;
+margin-bottom: 50px;
+padding: 50px;
+right: 10%;
+letter-spacing: 2px;
+line-height: 60px;
+font-size: 50%;
+
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .photos{
+    margin-left: 0px;
+  }
+}
+
 
 .aboutme{
   box-shadow: 10px 0px 5px grey;
