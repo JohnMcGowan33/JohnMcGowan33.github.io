@@ -1,0 +1,277 @@
+
+img	 {
+	  width: 30%;
+ float: left;
+position: relative;
+
+}
+
+.photos{
+ margin-left: 125px;
+
+
+
+}
+
+.wrap {
+  position: relative;
+
+}
+
+
+.wrap:hover .link{
+  opacity: 1;
+}
+
+.link{
+
+ position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+
+}
+
+
+.link a {
+color: white;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 20px;
+ text-decoration: none;
+  text-align: center;
+
+}
+
+@media only screen and (max-width: 600px){
+  img{
+     width: 120%;
+  }
+
+}
+@media only screen and (max-width: 800px){
+  img{
+     width: 120%;
+  }
+
+}
+
+
+.aboutme{
+  box-shadow: 10px 0px 5px grey;
+  margin-right: 10px;
+  height: auto;
+  width: 300px;
+  float: left;
+  background-color: #192231;
+  position: relative;
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  text-align: left;
+  margin-left: 18px;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+  color: white;
+}
+
+.projects h1{
+text-align: center;
+color: grey;
+margin-top: 100px;
+margin-bottom: 50px;
+padding: 50px;
+right: 10%;
+letter-spacing: 2px;
+line-height: 60px;
+
+}
+
+.projects h3{
+  text-align: left;
+  margin: 10px;
+  margin-left: 125px;
+  color:black;
+  font-size: 40px;
+
+}
+
+.community {
+
+  color: black;
+  margin-top:20px;
+    margin-left: 125px;
+    float: left;
+    clear: left;
+}
+
+.community h1{
+font-size: 40px;
+
+}
+    .community p{
+  text-align: left;
+    color: black;
+}
+
+.exp{
+  color: black;
+  margin-left: 125px;
+  margin-top: 20px;
+  float: left;
+    clear: left;
+}
+
+.exp h1{
+  font-size: 40px;
+}
+
+.exp p{
+  text-align: left;
+    color: black;
+}
+
+ .active {
+  font-size: 30px;
+  font-weight: bold;
+  color: green;
+}
+
+ .past {
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.acc{
+  color: black;
+  margin-left: 125px;
+  margin-top: 20px;
+  float: left;
+    clear: left;
+}
+
+.acc h1{
+  font-size: 40px;
+}
+
+.acc p {
+   text-align: left;
+    color: black;
+}
+
+.cw {
+ color: black;
+  margin-left: 125px;
+  margin-top: 20px;
+  float: left;
+    clear: left;
+}
+
+.cw h1{
+  font-size: 40px;
+}
+
+.cw p{
+ text-align: left;
+    color: black;
+}
+
+.cwl{
+float: left;
+}
+
+.cwr{
+  float: right;
+}
+
+
+
+
+
+/* NAVBAR */
+a{
+  background-color: transparent;
+
+}
+
+
+.topnav{
+  letter-spacing: 0.03em;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.topnav a{
+  
+
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#social{
+	height: 50px;
+  width: 50px;
+}
+.topnav a.active{
+	font-weight: bold;
+}
+.nav-right{
+	float: right;
+}
+#mainpage {
+	float:right;
+}
+body {
+	background-color: white;
+}
+
+#name{
+  font-weight: bold;
+  color: black;
+  text-decoration-color: orange;
+  text-decoration: underline;
+ 
+}
+#toplink{
+   color: black
+   ;
+}
+
+.bottom{
+  height: 20px;
+  margin-top: 250px;
+  margin-bottom: 10px;
+  float: left;
+    clear: left;
+ 
+
+}
+.bottom p{
+  color: black;
+
+}
+* {
+	font-family: 'Montserrat', sans-serif;
+
+	font-style: normal;
+	font-weight: 300;
+}
