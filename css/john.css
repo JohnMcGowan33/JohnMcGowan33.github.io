@@ -83,6 +83,12 @@ font-size: 50%;
   }
 }
 
+@media only screen and (max-width: 600px){
+  .community {
+    margin-left: 0px;
+  }
+}
+
 .aboutme{
   box-shadow: 10px 0px 5px grey;
   margin-right: 10px;
