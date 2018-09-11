@@ -8,60 +8,23 @@ position: relative;
 
 .photos{
  margin-left: 125px;
-
-
-
-}
-
-.wrap {
-  position: relative;
-
 }
 
 
-.wrap:hover .link{
-  opacity: 1;
-}
-
-.link{
-
- position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: black;
-
-}
-
-
-.link a {
-color: white;
-  font-size: 20px;
-  position: absolute;
-  margin-top: 150px;
-  margin-left: 20px;
- text-decoration: none;
-  text-align: center;
-
-}
 
 @media only screen and (max-width: 600px){
   img{
-     width: 120%;
+     width: 90%;
   }
 
 }
 @media only screen and (max-width: 800px){
   img{
-     width: 120%;
+     width: 90%;
   }
 
 }
+
 @media only screen and (max-width: 600px){
   h1{
     text-align: center;
@@ -78,17 +41,21 @@ font-size: 50%;
 }
 
 @media only screen and (max-width: 600px){
-  .photos .community .exp .acc .cw{
+  .photos {
     margin-left: 0px;
   }
 }
 
 @media only screen and (max-width: 600px){
   .community {
-    margin-left: 0px;
+     color: black;
+     display: inline-block;
+
+
+background-color: red;
+   
   }
 }
-
 .aboutme{
   box-shadow: 10px 0px 5px grey;
   margin-right: 10px;
@@ -121,7 +88,7 @@ color: grey;
 margin-top: 100px;
 margin-bottom: 50px;
 padding: 50px;
-right: 10%;
+
 letter-spacing: 2px;
 line-height: 60px;
 
@@ -133,6 +100,16 @@ line-height: 60px;
   margin-left: 125px;
   color:black;
   font-size: 40px;
+
+}
+
+.projects a{
+  color: black;
+  margin-top:20px;
+    margin-left: 125px;
+    float: left;
+    clear: left;
+
 
 }
 
@@ -217,13 +194,6 @@ font-size: 40px;
     color: black;
 }
 
-.cwl{
-float: left;
-}
-
-.cwr{
-  float: right;
-}
 
 
 
@@ -289,7 +259,10 @@ body {
     clear: left;
  
 
+
 }
+
+
 .bottom p{
   color: black;
 
